@@ -35,7 +35,7 @@ if st.button("Predict Expected Runs"):
         prediction = loaded_model.predict(input_data)
 
         # Display the prediction as a floated value rounded to 2 decimal places
-        st.success(f"Expected Runs: {prediction[0]:.2f}")
+        st.success(f"Expected Runs On Next Ball: {prediction[0]:.2f}")
         
 # Developer credit
 st.markdown("---")  # Adds a horizontal line
